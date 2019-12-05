@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component }  from 'react';
 
 // Function components ,
 // Sempre deverá retornar algum elemento. como no exemplo abaixo => <h1></h1>
@@ -8,9 +8,27 @@ import React from 'react';
 // }
 
 // Outra forma de construir determinado componente
-const MeuComponente = () => {
-    return <h1>Hello_World</h1>;
+// const MeuComponente = () => {
+//     return (
+//         <div>
+//         <h1>Hello_World</h1>
+//         </div>)
+//
+// };
 
-};
+
+class MeuComponente extends Component{
+    render() {
+        return (
+            <div>
+                <h1> Hello World </h1>
+            </div>
+        );
+    }
+
+}
+
+
 
 export default  MeuComponente;
+
