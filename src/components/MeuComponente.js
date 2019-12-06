@@ -28,7 +28,20 @@ class MeuComponente extends Component{
 
 }
 
+export const MeusComponentes = {
 
+    Hello: function () {
+        return(
+            <div>
+                <h1> Hello Developers! </h1>
+                </div>
+        );
+        
+    }
+
+
+
+};
 
 export default  MeuComponente;
 
