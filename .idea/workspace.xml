@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2210a5af-22dd-4668-919b-b00e0a131b85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MeuComponente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MeuComponente.js" afterDir="false" />
     </list>
@@ -27,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../back-office" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../videos" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,7 +56,9 @@
       <workItem from="1575085071153" duration="91000" />
       <workItem from="1575134496602" duration="2215000" />
       <workItem from="1575511357773" duration="600000" />
-      <workItem from="1575514018979" duration="2516000" />
+      <workItem from="1575514018979" duration="6469000" />
+      <workItem from="1575692117542" duration="599000" />
+      <workItem from="1575757517543" duration="245000" />
     </task>
     <servers />
   </component>

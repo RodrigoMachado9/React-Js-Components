@@ -19,29 +19,38 @@ import React, { Component }  from 'react';
 
 class MeuComponente extends Component{
     render() {
+        const props =  this.props;
+        // return (
+        //     <div>
+        //         <h1> Hello World, {props.name} </h1>
+        //     </div>
+        // );
         return (
-            <div>
-                <h1> Hello World </h1>
-            </div>
+          <ul>
+              <h1>
+              <li>Nome: {props.nome} </li>
+              <li>Sobrenome: {props.sobrenome} </li>
+              <li>Profissao: {props.profissao} </li>
+              </h1>
+          </ul>
         );
     }
 
 }
 
-export const MeusComponentes = {
-
-    Hello: function () {
-        return(
-            <div>
-                <h1> Hello Developers! </h1>
-                </div>
-        );
-        
-    }
-
-
-
-};
+// export const MeusComponentes = {
+//     Hello: function (props) {
+//         return(
+//             <div>
+//                 <h1> Hello Developer: {props.name} </h1>
+//                 </div>
+//         );
+//
+//     }
+//
+//
+//
+// };
 
 export default  MeuComponente;
 
