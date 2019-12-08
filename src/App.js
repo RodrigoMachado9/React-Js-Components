@@ -3,6 +3,12 @@ import './App.css';
 // import MeuComponente, {MeusComponentes} from "./components/MeuComponente";
 import MeuComponente from "./components/MeuComponente";
 import Time from "./components/Time";
+import MyButton from "./components/MyButton";
+
+
+
+
+
 
 class App extends Component {
   render() {
@@ -17,11 +23,12 @@ class App extends Component {
         nome:'rodrigo',
         sobrenome:'machado',
         profissao:'desenvolvedor'
-    }
+    };
 
 
     return (
       <div className="App">
+          <MyButton/>
           <MeuComponente {...dados}/>
           <Time/>
           {/*<MeuComponentEscolhido name={variableComponent}/>*/}
