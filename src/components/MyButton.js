@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Time from "./Time";
 
  const INITIAL_STATE = {
   isOn: true
@@ -35,7 +35,11 @@ class MyButton extends Component{
         // const state =  this.state;
         return(
             // arrow function . . . . . is here, passando parametros..
-            <button onClick={(event)=>{this.handleClick(event, 'hello_world')}}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
+            <div>
+                <button onClick={(event)=>{this.handleClick(event, 'hello_world')}}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
+                {this.state.isOn? <Time/>: <p> Counter is Off</p>}
+            </div>
+
             // <button onClick={this.handleClick}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
 
         )

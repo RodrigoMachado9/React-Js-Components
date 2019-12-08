@@ -29,8 +29,8 @@ class App extends Component {
     return (
       <div className="App">
           <MyButton/>
-          <MeuComponente {...dados}/>
-          <Time/>
+          {/*<MeuComponente {...dados}/>*/}
+          {/*<Time/>*/}
           {/*<MeuComponentEscolhido name={variableComponent}/>*/}
       </div>
     );
