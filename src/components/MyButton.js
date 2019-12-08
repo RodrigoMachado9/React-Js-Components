@@ -24,17 +24,18 @@ class MyButton extends Component{
 
 
     handleClick(){
-        console.log(this)
+        console.log(this);
+        this.setState((state, props) => {
+            return {isOn: !state.isOn};                 // altera o stado atual do isON, conforme handleClick
+        })
     }
 
     render() {
+        // const state =  this.state;
         return(
-            <button onClick={(event)=>{this.handleClick()}}>Click Me</button>
-
-        );
+            <button onClick={this.handleClick}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
+        )
     }
-
-
 }
 
 // function MyButton(props) {
