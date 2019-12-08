@@ -2,26 +2,31 @@ import React, { Component } from 'react';
 
 
 
-// class MyButton extends Component{
-//     render() {
-//
-//         return(
-//             <button onClick={sayHello}>Click Me</button>
-//
-//         );
-//     }
-//
-//
-// }
+class MyButton extends Component{
 
-function MyButton(props) {
-    function sayHello(){
+    sayHello(){
         alert('Hello!!')
     }
-    return(
-        <button onClick={sayHello}>Click Me</button>
-    )
+
+    render() {
+
+        return(
+            <button onClick={this.sayHello}>Click Me</button>
+
+        );
+    }
+
+
 }
+
+// function MyButton(props) {
+//     function sayHello(){
+//         alert('Hello!!')
+//     }
+//     return(
+//         <button onClick={sayHello}>Click Me</button>
+//     )
+// }
 
 
 export default MyButton;
