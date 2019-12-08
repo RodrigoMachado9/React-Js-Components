@@ -25,14 +25,11 @@ class MyButton extends Component{
 
     handleClick(){
         console.log(this)
-
-
     }
 
     render() {
-
         return(
-            <button onClick={this.handleClick}>Click Me</button>
+            <button onClick={(event)=>{this.handleClick()}}>Click Me</button>
 
         );
     }
