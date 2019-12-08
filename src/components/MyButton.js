@@ -1,17 +1,38 @@
 import React, { Component } from 'react';
 
 
+ const INITIAL_STATE = {
+  isOn: true
+
+};
+
 
 class MyButton extends Component{
 
-    sayHello(){
+    constructor(props){
+        super(props);
+        this.state = INITIAL_STATE;
+        this.handleClick = this.handleClick.bind(this); // função bind sobrescreve o scopo atual do this.
+
+    }
+
+
+    sayHello(event){
+        event.preventDefault();
         alert('Hello!!')
+    }
+
+
+    handleClick(){
+        console.log(this)
+
+
     }
 
     render() {
 
         return(
-            <button onClick={this.sayHello}>Click Me</button>
+            <button onClick={this.handleClick}>Click Me</button>
 
         );
     }
