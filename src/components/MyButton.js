@@ -23,8 +23,9 @@ class MyButton extends Component{
     }
 
 
-    handleClick(){
+    handleClick(event, param){
         console.log(this);
+        console.log(param)
         this.setState((state, props) => {
             return {isOn: !state.isOn};                 // altera o stado atual do isON, conforme handleClick
         })
@@ -33,7 +34,10 @@ class MyButton extends Component{
     render() {
         // const state =  this.state;
         return(
-            <button onClick={this.handleClick}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
+            // arrow function . . . . . is here, passando parametros..
+            <button onClick={(event)=>{this.handleClick(event, 'hello_world')}}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
+            // <button onClick={this.handleClick}>{this.state.isOn ? 'Desligar': 'Ligar'}</button>
+
         )
     }
 }
