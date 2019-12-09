@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 
 
 const INITIAL_STATE = {
-  time:7
+  time:0
 };
 
 class Time extends Component{
@@ -19,17 +19,27 @@ class Time extends Component{
 
         // setInterval > sera iniciado a cada 1 segundo;
         // para o setState atualizar o stado atual da variavel conforme intervalo, é necessario declarar uma função pra o setState.
-        setInterval(()=>{
+
+    }
+
+    componentDidMount() {
+        console.log('componentDidMount');
+        this.interval = setInterval(()=>{
             this.setState(( state , props)=>{
+                // console.log(this.state.time);
                 return {
                     time: state.time + 1
                 }
             })
-
-
         }, 1000)
-
     }
+
+    // metodos do ciclo de vida do componentes... life cycles hooks
+    componentWillUnmount() {
+        console.log('componentWillUnmount');
+        clearInterval(this.interval);
+    }
+
     render() {
         const state = this.state;
 
