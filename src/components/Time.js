@@ -34,7 +34,7 @@ class Time extends Component{
         }, 1000)
     }
 
-    // metodos do ciclo de vida do componentes... life cycles hooks
+    // metodos do ciclo de vida do componentes... life cycle
     componentWillUnmount() {
         console.log('componentWillUnmount');
         clearInterval(this.interval);

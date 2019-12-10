@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
 // import MeuComponente, {MeusComponentes} from "./components/MeuComponente";
-import MeuComponente from "./components/MeuComponente";
-import Time from "./components/Time";
+// import MeuComponente from "./components/MeuComponente";
+// import Time from "./components/Time";
 import MyButton from "./components/MyButton";
-
-
-
-
+import PeopleList from "./components/PeopleList";
 
 
 class App extends Component {
-  render() {
+
+    componentDidMount() {
+
+    }
+
+
+    render() {
     // const name = 'Hello';  //acessando determinado objeto dos meus componentes;
     // aplicando determinada lógica posso alterar os componentes dinamicamente, via componente escolhido.
 
@@ -19,16 +22,17 @@ class App extends Component {
     // const variableComponent = 'master machado!  ';
 
     // utilizando  { ...spread } para evitar "poluir" o componente com a passagem de diversas propriedades.  "conceito similar ao empacotamento de dicionarios do python"
-    const dados = {
-        nome:'rodrigo',
-        sobrenome:'machado',
-        profissao:'desenvolvedor'
-    };
+    // const dados = {
+    //     nome:'rodrigo',
+    //     sobrenome:'machado',
+    //     profissao:'desenvolvedor'
+    // };
 
 
     return (
       <div className="App">
           <MyButton/>
+          <PeopleList/>
           {/*<MeuComponente {...dados}/>*/}
           {/*<Time/>*/}
           {/*<MeuComponentEscolhido name={variableComponent}/>*/}
