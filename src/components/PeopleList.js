@@ -22,17 +22,18 @@ class PeopleList extends Component{
 
     render() {
 
-        const elementsList = [];
-        for (let i = 0 ; i < myList.length;  i ++ ){
-            elementsList.push(
-                <li>{myList[i].nome} - {myList[i].idade} anos</li>
-            )
-
-        }
+        // const elementsList = [];
+        // for (let i = 0 ; i < myList.length;  i ++ ){
+        //     elementsList.push(
+        //         <li>{myList[i].nome} - {myList[i].idade} anos</li>
+        //     )
+        //
+        // }
 
         return(
+            // utilizando a função => map / array function para 'substituir' o comando for;
             <ul>
-                {elementsList}
+                {myList.map(person => <li>{person.nome} - {person.idade} anos</li>)}
             </ul>
         );
     }
