@@ -29,11 +29,11 @@ class PeopleList extends Component{
         //     )
         //
         // }
-
+        const list = myList.map(person => <li>{person.nome} - {person.idade} anos</li>);
         return(
             // utilizando a função => map / array function para 'substituir' o comando for;
             <ul>
-                {myList.map(person => <li>{person.nome} - {person.idade} anos</li>)}
+                {list}
             </ul>
         );
     }
