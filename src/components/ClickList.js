@@ -7,11 +7,16 @@ class ClickList extends Component{
     render() {
         return (
             <div>
-                Mestre: {this.props.children}
-            </div>
-        );
+                <h1>Mestre</h1>
+                <ul>
+                    {this.props.children.map(item=>{
+                        return <li>
+                            {item}
+                        </li>
+                    })}
+
+                </ul>
+            </div>);
     }
-
 }
-
 export default ClickList;

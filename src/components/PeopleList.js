@@ -41,13 +41,13 @@ class PeopleList extends Component{
 
         return(
             // utilizando a função => map / array function para 'substituir' o comando for;
-            <ul>
+            <ol>
                 {/*{list}*/}
                 {
                     myList.map(person => <li onClick={this.sayMyName.bind(this, person)} key={person.id}> {person.name} - {person.age} </li>)
 
                 }
-            </ul>
+            </ol>
         );
     }
 

@@ -39,7 +39,8 @@ class App extends Component {
           <MyButton/>
           <PeopleList/>
           <ClickList>
-              <div>Sagitário</div>
+              <div>hello developers!</div>
+              <h2>Aioros de Sagitário</h2>
           </ClickList>
           {/*<MeuComponente {...dados}/>*/}
           {/*<Time/>*/}
