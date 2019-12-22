@@ -7,6 +7,7 @@ import MyButton from "./components/MyButton";
 import PeopleList from "./components/PeopleList";
 import ClickList from "./components/ClickList";
 import ClickListItem from "./components/ClickListItem";
+import MyVideo from "./components/MyVideo";
 
 // const INITIAL_STATE = {
 //     name:"Sagitário"
@@ -37,6 +38,7 @@ class App extends Component {
     // ClickList elementos filhos
     return (
       <div className="App">
+          <MyVideo src={"https://storage.coverr.co/videos/coverr-sunset-yoga-1572185971669?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTc3MDU3MjM1fQ.V4VpPP1Lx01iFQAGXhaAa7fCOh3BI1b_lB2f7BBcrzk"}/>
           <MyButton/>
           <PeopleList/>
           <ClickList id={'cavaleiro-do-zodiaco'}>
