@@ -6,7 +6,7 @@ import './App.css';
 import MyButton from "./components/MyButton";
 import PeopleList from "./components/PeopleList";
 import ClickList from "./components/ClickList";
-
+import ClickListItem from "./components/ClickListItem";
 
 // const INITIAL_STATE = {
 //     name:"Sagitário"
@@ -34,13 +34,17 @@ class App extends Component {
     // };
 
 
+    // ClickList elementos filhos
     return (
       <div className="App">
           <MyButton/>
           <PeopleList/>
           <ClickList id={'cavaleiro-do-zodiaco'}>
-              <div>hello developers!</div>
-              <h2>Aioros de Sagitário</h2>
+              {/*<div>hello developers!</div>*/}
+              {/*<h2>Aioros de Sagitário</h2>*/}
+              <ClickListItem></ClickListItem>
+              <ClickListItem></ClickListItem>
+              <ClickListItem></ClickListItem>
           </ClickList>
           {/*<MeuComponente {...dados}/>*/}
           {/*<Time/>*/}

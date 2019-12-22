@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2210a5af-22dd-4668-919b-b00e0a131b85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ClickListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ClickList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ClickList.js" afterDir="false" />
@@ -66,7 +67,7 @@
       <workItem from="1576719243420" duration="599000" />
       <workItem from="1576946342064" duration="44000" />
       <workItem from="1576982934848" duration="3207000" />
-      <workItem from="1577030101201" duration="3933000" />
+      <workItem from="1577030101201" duration="6488000" />
     </task>
     <servers />
   </component>
