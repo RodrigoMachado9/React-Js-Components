@@ -2,26 +2,16 @@ import React , { Component} from 'react';
 
 
 
-// eslint-disable-next-line t
+//recebendo elemento sagitário da tag app como filho.
 class ClickList extends Component{
-    // eslint-disable-next-line t
-    constructor(props){
-        super(props);
-    }
-
-
-
     render() {
         return (
             <div>
-                Mestre: {this.props.name}
+                Mestre: {this.props.children}
             </div>
         );
     }
 
 }
-
-
-
 
 export default ClickList;

@@ -8,10 +8,10 @@ import PeopleList from "./components/PeopleList";
 import ClickList from "./components/ClickList";
 
 
-const INITIAL_STATE = {
-    name:"Sagitário"
-
-};
+// const INITIAL_STATE = {
+//     name:"Sagitário"
+//
+// };
 
 
 class App extends Component {
@@ -38,7 +38,9 @@ class App extends Component {
       <div className="App">
           <MyButton/>
           <PeopleList/>
-          <ClickList {...INITIAL_STATE} />
+          <ClickList>
+              <div>Sagitário</div>
+          </ClickList>
           {/*<MeuComponente {...dados}/>*/}
           {/*<Time/>*/}
           {/*<MeuComponentEscolhido name={variableComponent}/>*/}
