@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2210a5af-22dd-4668-919b-b00e0a131b85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ClickList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../videos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,7 +61,11 @@
       <workItem from="1575832454718" duration="565000" />
       <workItem from="1575833379990" duration="5423000" />
       <workItem from="1575938048820" duration="3419000" />
-      <workItem from="1576030027059" duration="3956000" />
+      <workItem from="1576030027059" duration="6860000" />
+      <workItem from="1576551582691" duration="647000" />
+      <workItem from="1576719243420" duration="599000" />
+      <workItem from="1576946342064" duration="44000" />
+      <workItem from="1576982934848" duration="2852000" />
     </task>
     <servers />
   </component>

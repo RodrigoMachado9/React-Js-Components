@@ -5,13 +5,18 @@ import './App.css';
 // import Time from "./components/Time";
 import MyButton from "./components/MyButton";
 import PeopleList from "./components/PeopleList";
+import ClickList from "./components/ClickList";
+
+
+const INITIAL_STATE = {
+    name:"Sagitário"
+
+};
 
 
 class App extends Component {
 
-    componentDidMount() {
 
-    }
 
 
     render() {
@@ -33,6 +38,7 @@ class App extends Component {
       <div className="App">
           <MyButton/>
           <PeopleList/>
+          <ClickList {...INITIAL_STATE} />
           {/*<MeuComponente {...dados}/>*/}
           {/*<Time/>*/}
           {/*<MeuComponentEscolhido name={variableComponent}/>*/}
