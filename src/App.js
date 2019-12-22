@@ -38,7 +38,7 @@ class App extends Component {
       <div className="App">
           <MyButton/>
           <PeopleList/>
-          <ClickList>
+          <ClickList id={'cavaleiro-do-zodiaco'}>
               <div>hello developers!</div>
               <h2>Aioros de Sagitário</h2>
           </ClickList>
