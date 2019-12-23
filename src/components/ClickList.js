@@ -22,14 +22,23 @@ class ClickList extends Component{
         Channel.removeEventListener('listItem:click', this.setTotal);
     }
 
-    componentDidCatch(error, errorInfo) {
-        this.setState(state=>{
-            return  {hasError:!state.hasError}
-        })
+    static getDerivedStateFromError(error){
+        return  {
+            hasError: true
+        }
+
     }
 
+
+    componentDidCatch(error, errorInfo) {
+        // this.setState(state=>{
+        //     return  {hasError:!state.hasError}
+        // })
+        console.log('Error')
+        }
+
     restart(){
-        this.setState({hasError:false})
+        this.setState({hasError:false, total: 0})
     }
 
     setTotal(){
