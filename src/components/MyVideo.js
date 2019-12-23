@@ -7,12 +7,16 @@ class MyVideo extends Component{
         super(props);
         this.myVideo = React.createRef();
         this.start = this.start.bind(this);
+        this.stop = this.stop.bind(this);
     }
 
 
     start(){
         this.myVideo.current.play(); // contem determinada refencia de um video.
+    }
 
+    stop(){
+        this.myVideo.current.stop();
     }
 
 
