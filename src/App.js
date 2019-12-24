@@ -19,7 +19,7 @@ import {MyContext} from "./services/MyContext";
 
 // para debugar o projeto: instale este plugin para o navegador...
 // https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-
+// npm install -g react-devtools
 
 class App extends Component {
     constructor(props){
